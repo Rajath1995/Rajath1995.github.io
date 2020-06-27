@@ -2160,6 +2160,55 @@ input, select, textarea {
 			header .icon.circled {
 				margin: 0 0 2em 0;
 			}
+/* NewButton */
+
+	input[type="button"],
+	input[type="submit"],
+	input[type="reset"],
+	button,
+	.Newbutton {
+		position: relative;
+		display: inline-block;
+		background: #df7366;
+		color: #fff;
+		text-align: center;
+		border-radius: 7px;
+		text-decoration: none;
+		padding: 0.30em 1.3em 0.30em 1.3em;
+		border: 0;
+		cursor: pointer;
+		outline: 0;
+		font-weight: 30;
+		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+	}
+
+		input[type="button"]:hover,
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		button:hover,
+		.Newbutton:hover {
+			color: #fff;
+			background: #ef8376;
+		}
+
+		input[type="button"].alt,
+		input[type="submit"].alt,
+		input[type="reset"].alt,
+		button.alt,
+		.Newbutton.alt {
+			background: #2B252C;
+		}
+
+			input[type="button"].alt:hover,
+			input[type="submit"].alt:hover,
+			input[type="reset"].alt:hover,
+			button.alt:hover,
+			.Newbutton.alt:hover {
+				background: #3B353C;
+			}
 
 /* Wrapper */
 
